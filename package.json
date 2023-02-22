@@ -1,0 +1,17 @@
+{
+  "name": "bgzip",
+  "version": "1.0.0",
+  "module": "src/index.js",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "src/**"
+  ],
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha.js --ui tdd -r esm  test/testBGZip.js"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "mocha": "^10.2.0"
+  }
+}
