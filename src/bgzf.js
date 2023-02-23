@@ -1,5 +1,5 @@
 
-import {ungzip, gzip, deflateRaw, inflateRaw} from "./pako.esm.mjs"
+import {ungzip, gzip, deflateRaw, inflateRaw} from "./pako.esm.js"
 
 
 const FEXTRA = 4;  // gzip spec F.EXTRA flag
